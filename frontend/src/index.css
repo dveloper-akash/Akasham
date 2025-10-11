@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ranchers&display=swap');
+@import "tailwindcss"; 
+
+@theme{
+  --font-poppins: 'Poppins', sans-serif;
+  --font-poor-story: 'Poor Story', cursive;
+  --font-ranchers: 'Ranchers', cursive;
+}
+.text-stroke {
+  -webkit-text-stroke: 1px black; /* for Chrome/Safari */
+         /* for others (not widely supported) */
+}
+.stroke:hover{
+  -webkit-text-stroke: 1px black; /* for Chrome/Safari */
+         /* for others (not widely supported) */
+}
+.non-stroke {
+  -webkit-text-stroke: 1px transparent; /* for Chrome/Safari */
+         /* for others (not widely supported) */
+}
+
+/* Minimal black/white scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  margin-left: 8px;
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #686868;
+  height: 10px;
+  border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  
+}
